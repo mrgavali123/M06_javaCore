@@ -14,7 +14,7 @@ public class IfElse2 {
 					System.out.println("This is a leap year :"+year);
 				}
 				else {
-					System.out.println("This is not leap year  ");
+					System.out.println("This is not leap year :"+year);
 				}
 			}
 			else 
@@ -23,7 +23,7 @@ public class IfElse2 {
 			}
 		}
 		else {
-			System.out.println("This is not leap year  ");
+			System.out.println("This is not leap year : "+year);
 		}
 	}
 
