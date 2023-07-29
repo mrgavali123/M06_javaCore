@@ -64,6 +64,9 @@ public class HotelBudget {
 		case 12:
 			System.out.println(rent+(0.2*1500)*day);
 			break;
+			
+		default:
+			System.out.println("Invalid Syntax");
 		}
 
 		
