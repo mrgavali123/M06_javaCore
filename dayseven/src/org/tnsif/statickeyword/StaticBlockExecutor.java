@@ -2,7 +2,7 @@ package org.tnsif.statickeyword;
 
 public class StaticBlockExecutor {
 	static String name;
-	int a ;
+	int a;
 	
 	static
 	{
@@ -17,7 +17,8 @@ public class StaticBlockExecutor {
 	{
 		System.out.println(name);
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub
 		display();
 	}
