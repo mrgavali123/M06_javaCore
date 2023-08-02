@@ -30,15 +30,15 @@ public class HotelBudget {
 			break;
 			
 		case 4:
-			System.out.println(rent+(0.2*1500)*day);
+			System.out.println((rent*day)+((0.2*rent)*day));
 			break;
 			
 		case 5:
-			System.out.println(rent+(0.2*1500)*day);
+			System.out.println((rent*day)+((0.2*rent)*day));
 			break;
 			
 		case 6:
-			System.out.println(rent+(0.2*1500)*day);
+			System.out.println((rent*day)+((0.2*rent)*day));
 			break;
 			
 		case 7:
@@ -58,11 +58,11 @@ public class HotelBudget {
 			break;
 			
 		case 11:
-			System.out.println(rent+(0.2*1500)*day);
+			System.out.println((rent*day)+((0.2*rent)*day));
 			break;
 			
 		case 12:
-			System.out.println(rent+(0.2*1500)*day);
+			System.out.println((rent*day)+((0.2*rent)*day));
 			break;
 			
 		default:

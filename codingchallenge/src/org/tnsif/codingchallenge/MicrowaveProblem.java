@@ -8,13 +8,13 @@ public class MicrowaveProblem {
 		// TODO Auto-generated method stub
 
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter a number of atom");
-		int atom = s.nextInt();
+		System.out.println("Enter a number of item");
+		int item = s.nextInt();
 		
 		System.out.println("Enter required time");
-		int time = s.nextInt();
+		float time = s.nextFloat();
 		
-		switch(atom) 
+		switch(item) 
 		{
 			
 		case 1:
